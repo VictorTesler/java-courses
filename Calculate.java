@@ -9,11 +9,11 @@ public class Calculate {
 			Double a = Double.valueOf(arg[0]);
 			Double b = Double.valueOf(arg[1]);
 			
-			System.out.println ("Сумма " +  ( a + b));
-			System.out.println ("Разница " +  ( a - b));
-			System.out.println ("Произведение " +  ( a * b));
-			System.out.println ("Деление " +  ( a / b));
-			System.out.println("Степень " + (pow(a,b)));
+			System.out.println ("Sum " +  ( a + b));
+			System.out.println ("Residual " +  ( a - b));
+			System.out.println ("op " +  ( a * b));
+			System.out.println ("division " +  ( a / b));
+			System.out.println("power " + (pow(a,b)));
 		}
 		
 }
